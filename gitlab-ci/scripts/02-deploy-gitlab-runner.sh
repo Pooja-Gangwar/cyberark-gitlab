@@ -7,11 +7,11 @@ CONTAINER_MGR=docker
 # Docker image URL
 CONTAINER_IMG=gitlab/gitlab-runner:latest
 # GitLab Host
-GITLAB_HOST=$(hostname -f)
+GITLAB_HOST=gitlab.example.com
 # GitLab port
 GITLAB_PORT=9080
 # GitLab Instance Registration Token
-GITLAB_REGISTRATION_TOKEN=
+GITLAB_REGISTRATION_TOKEN=GR1348941fpmxT33ixcrz-nQf2ycy
 #============ Script ===============
 #Deploying GitLab Runner
 $SUDO $CONTAINER_MGR volume create gitlab-runner-conjur-config
